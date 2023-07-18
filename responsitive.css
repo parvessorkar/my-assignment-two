@@ -41,6 +41,21 @@ width: 35%;
   width: 100%;
 }
 /* online game section */
+.online-game{
+  margin: 0 auto;
+}
+.funny-video-container{
+  flex-direction: column;
+}
+
+
+
+
+
+
+
+/* footer section */
+
 }
 
 

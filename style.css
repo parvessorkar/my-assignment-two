@@ -117,7 +117,7 @@ font-weight: 400;
 }
 .funny-video-container{
   display: flex;
-  gap: 25px;
+  gap: 20px;
   margin-top: 20px;
 }
 .online-game{
@@ -132,3 +132,63 @@ font-size: 20px;
 font-weight: 500;
 }
   
+
+
+
+
+
+
+
+
+
+
+/* footer section */
+.nav-firsta{
+color: white;
+}
+.nav-firsta .icon-color{
+ color: #FFF;
+font-size: 45px;
+font-weight: 700;
+}
+.nav-firsta img{
+  width:5%;
+}
+
+.footer{
+  background: #0B0223;
+}
+.footer-container{
+  text-align: center;
+  padding: 130px 0;
+}
+.footer-heading{
+display: flex;
+justify-content:center;
+gap: 40px;
+color: #FFF;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+}
+.footer-icon{
+ color: rgb(245, 236, 236);
+ 
+
+}
+.footer-discreption{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  color: rgba(255, 255, 255, 0.60);
+font-size: 16px;
+font-weight: 500;
+
+}
+.adtha-right-symbol{
+color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-size: 16px;
+font-weight: 500;
+
+}
