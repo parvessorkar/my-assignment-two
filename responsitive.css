@@ -1,0 +1,47 @@
+/* for small device like mobile */
+
+@media screen and (max-width:576px) {
+.nav-container{
+  margin:0px auto;
+  flex-direction: column;     
+  padding: 0;
+}
+.game{
+width: 35%;
+}
+.nav-first{
+  width: 70%;
+  margin-left:60px;
+}
+.nav-text{
+  flex-direction: column;  
+  font-size: large;
+  align-items: center; 
+}
+.nav-social{
+  width: 50%;
+}
+.nav-second{
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width:100%;
+}
+/* baner section */
+.baner-section{
+  margin: 0px;
+}
+.baner-container{
+  flex-direction: column;
+}
+.baner-img img{
+  width:200%;
+}
+.baner-contant{
+  width: 100%;
+}
+}
+
+
+
+
