@@ -103,5 +103,32 @@ font-weight: 600;
 padding: 20px 40px;
 border: 0;
 }
-
+/* online game section */
+.online-game-heding{
+color: #0B0223;
+font-size: 48px;
+font-weight: 700;
+}
+.online-discreption{
+color: #534C64;
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+}
+.funny-video-container{
+  display: flex;
+  gap: 25px;
+  margin-top: 20px;
+}
+.online-game{
+  margin:100px 240px ;
+}
+.online-game-contant{
+  text-align: center;
+}
+.funny-discreption{
+ color: #534C64;
+font-size: 20px;
+font-weight: 500;
+}
   
