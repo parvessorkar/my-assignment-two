@@ -39,7 +39,24 @@ width: 35%;
 }
 .baner-contant{
   width: 100%;
+  padding: 0px;
 }
+.baner-title{
+  font-size: 300%;  
+}
+.baner-heading{
+  font-size: 600%;
+}
+.baner-discreption{
+  font-size: 150%;
+}
+.btna{
+  font-size: 150%;
+}
+.btnb{
+  font-size: 150%;
+}
+
 /* online game section */
 .online-game{
   margin: 0 auto;
@@ -55,7 +72,10 @@ width: 35%;
 
 
 /* footer section */
-
+ .footer-container{
+  margin: 50px auto;
+  flex-wrap: wrap;
+ }
 }
 
 
