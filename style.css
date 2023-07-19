@@ -209,10 +209,13 @@ border: 1px solid red;
 }
 .big-img img{
   width:80%;
+  height: 100%;
   position:relative;
 }
-.play-img img{
- position:;
+.play-img .imgb{
+width:30%;
+position:absolute;
+bottom: ;
 }
 .play-heading .play-color{
 background-image: linear-gradient(to bottom,#ff42a5, #4EC5F7);
