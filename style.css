@@ -193,13 +193,15 @@ font-weight: 400;
   opacity: 0;
   transition: .3s ease;
   background-color:rgba(0, 0, 0, 0.5);
+  border: 5px solid #F948B2;
+  border-radius: 15px;
 }
 
 .funny-video:hover .overlay {
   opacity: 1;
 }
 
-.text {
+.text {  
   color:#F948B2;
   font-size: 30px;
   position: absolute;
