@@ -191,7 +191,7 @@ font-weight: 400;
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: .5s ease;
+  transition: .3s ease;
   background-color:rgba(0, 0, 0, 0.5);
 }
 
@@ -200,8 +200,8 @@ font-weight: 400;
 }
 
 .text {
-  color: white;
-  font-size: 20px;
+  color:#F948B2;
+  font-size: 30px;
   position: absolute;
   top: 50%;
   left: 50%;
