@@ -122,7 +122,6 @@ border: 0;
 }
 .item-img{
 width: 50%;
-border: 1px solid red;
 }
 .item-img img{
   width: 100%;
@@ -130,7 +129,6 @@ border: 1px solid red;
 }
 .item-contant{
 width: 50%;
-border: 1px solid red;
 text-align: right;
 }
 .item-heading{
@@ -196,6 +194,44 @@ font-weight: 400;
 font-size: 20px;
 font-weight: 500;
 }
+/* play game section */
+.play-game-container{
+  margin: 100px 240px;
+  display: flex;
+}
+.play-img{
+width: 50%;
+border: 1px solid red;
+}
+.play-contant{
+width: 50%;
+border: 1px solid red;
+}
+.big-img img{
+  width:80%;
+  position:relative;
+}
+.play-img img{
+ position:;
+}
+.play-heading .play-color{
+background-image: linear-gradient(to bottom,#ff42a5, #4EC5F7);
+  color: transparent;
+ -webkit-background-clip: text; 
+font-size: 48px;
+font-weight: 700;
+}
+.play-heading{
+color: #0B0223;
+font-size: 48px;
+font-weight: 700;
+}
+.play-discreption{
+color: #534C64;
+font-size: 18px;
+font-weight: 400;
+}
+
   /*game sectiion  */
   .game-container{
     background-color: #f5edf1; 
