@@ -196,26 +196,28 @@ font-weight: 500;
 }
 /* play game section */
 .play-game-container{
-  margin: 100px 240px;
+  margin: 0 240px;
   display: flex;
 }
 .play-img{
 width: 50%;
-border: 1px solid red;
 }
 .play-contant{
 width: 50%;
-border: 1px solid red;
+margin-left: 100px;
+padding-top: 100px;
 }
 .big-img img{
   width:80%;
   height: 100%;
   position:relative;
 }
-.play-img .imgb{
-width:30%;
-position:absolute;
-bottom: ;
+.picture{
+  width: 40%;
+  height: 40%;
+  position: relative;
+  bottom: 240px;
+  left: 400px;
 }
 .play-heading .play-color{
 background-image: linear-gradient(to bottom,#ff42a5, #4EC5F7);
