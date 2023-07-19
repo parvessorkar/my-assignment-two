@@ -64,6 +64,15 @@ width: 35%;
 .funny-video-container{
   flex-direction: column;
 }
+/* game section */
+.game-container{
+  max-width: 400px;
+  height: 200px;
+  padding-top: 0px;
+  flex-direction: column;
+
+}
+.
 
 
 

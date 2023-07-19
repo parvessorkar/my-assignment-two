@@ -54,14 +54,15 @@ color:#FF42A5 ;
 /* nav finished */
 /* baner section */  
 .baner-section{
-  margin: 0 240px;
+  margin: 50px 240px;
 }
 .baner-container{
   display: flex;
 }
 .baner-contant{
- width: 50%;
- padding: 150px 0;  
+ width: 50%; 
+ background-image: url('./images/Group\ 14.png');
+ background-repeat: no-repeat;  
 }
 .baner-contant .baner-title .baner-heading{
   margin: 0;
@@ -114,6 +115,47 @@ font-weight: 600;
 padding: 20px 40px;
 border: 0;
 }
+/* new item */
+.item-container{
+  margin: 0 240px;
+  display: flex;
+}
+.item-img{
+width: 50%;
+border: 1px solid red;
+}
+.item-img img{
+  width: 100%;
+  height: 100%;
+}
+.item-contant{
+width: 50%;
+border: 1px solid red;
+text-align: right;
+}
+.item-heading{
+  font-size:250%;
+ background-image: linear-gradient(to bottom,#ff42a5, #4EC5F7);
+   color: transparent;
+   -webkit-background-clip: text; 
+}
+.item-discreption{
+  color: #534C64;
+font-size: 120%;
+font-weight: 400;
+}
+.item-last{
+color: #534C64;
+font-size: 24px;
+margin-bottom:5px;
+}
+.item-message{
+color: #534C64;
+font-size: 32px;
+font-weight: 700;
+margin-top: 0px;
+
+}
 /* online game section */
 .online-game-heding{
 color: #0B0223;
@@ -130,9 +172,9 @@ font-weight: 400;
   display: flex;
   justify-content: center;
   gap: 20px;
-  margin-top: 30px;  
-  
+  margin-top: 30px;    
 }
+ 
 .online-game{
   margin:100px 240px;
 
@@ -155,16 +197,39 @@ font-size: 20px;
 font-weight: 500;
 }
   /*game sectiion  */
+  .game-container{
+    background-color: #f5edf1; 
+    width: 1920px;
+    height: 427px;
+    text-align: center;
+    padding-top: 120px;
+    margin: 0 auto;       
+  }
+  .each-game:hover{
+    color: #FF42A5;
+    background-color: #FF42A5;
+    border: 1px solid #FF42A5;  
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
   .each-game{
     display: flex;
+    border-radius: 50px;
+    background: #FFF;
+    padding:5px ;
+  
   }
   .game-sectiona{
     display: flex;
     justify-content: center;
+    gap: 30px;  
+    padding: 20px;
   }
   .game-sectionb{
     display: flex;
     justify-content: center;
+    gap: 30px;
+   
   }
   
 
