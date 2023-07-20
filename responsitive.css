@@ -84,16 +84,31 @@ width: 35%;
   width: 200%;  
 }
 /* play game */
-.play-game-container{
-  margin: 0 auto;
-  flex-direction: column;
-}
-.big-img img{
-  width: 200%;
-}
-.play-contant{
-  margin: 0 auto;
-}
+  .play-game-container {
+        flex-direction: column-reverse;
+        margin: 20px auto;
+        gap: 10px;
+      }
+
+      .play-img {
+        width: 80%;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      .big-img img {
+        width: 40%; 
+        height: auto; 
+        position: absolute; 
+        margin-top: 20px;
+      }
+
+      .play-contant {
+        width: 100%;
+        margin-left: 0;  
+        padding-top: 0; 
+        text-align: center; 
+      }
 
 /* game section */
 .each-game {        
