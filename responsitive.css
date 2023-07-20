@@ -7,8 +7,7 @@
   padding: 0;
 } 
 body{
-  margin: 0 auto;
-  border: 3px solid red;  
+  margin: 0 auto;  
 }
 .baner-section{
   padding: 0 20px;
@@ -63,21 +62,23 @@ width: 35%;
   width: 100%;
   height: auto;
   padding: 0px;
+  
 }
 .baner-title{
-  font-size: 300%;  
+  font-size: 200%;  
 }
 .baner-heading{
-  font-size: 600%;
+  font-size: 400%;
 }
 .baner-discreption{
-  font-size: 150%;
+  font-size: 100%;
+  padding-bottom: 10px;
 }
 .btna{
-  font-size: 150%;
+  font-size: 100%;
 }
 .btnb{
-  font-size: 150%;
+  font-size: 100%;
 }
 /* new item section */
 .item-container{
@@ -175,20 +176,31 @@ width: 35%;
     
 /* this is for tab */
 @media screen and (min-width:576px) and (max-width:960px) {
- header {
-    margin: 30px 20px;
-    padding: 15px;
+  .nav-container{
+    margin: 0 auto;
   }
-  .baner-section {
-    margin: 30px 20px;
-    padding: 15px;
-  }
+
   .item-container {
     margin: 30px 20px;
     padding: 15px;
   }
 
 /* baner section */
+ .baner-section{
+  margin: 0 auto;
+  padding: 0 10px;
+ }
+ .btna{
+  font-size: 20px;
+ }
+ .btnb{
+  font-size: 20px;
+ }
+ .baner-discreption{
+  font-size: 20px;
+  padding-bottom: 10px;
+ }
+
   .baner-title {
     font-size: 250%;
   }
@@ -201,6 +213,9 @@ width: 35%;
   .online-heading {
     font-size: 150%;
   }
+  .online-game{
+    margin: 0 auto;
+  }
   .play-heading {
     font-size: 250%;
   }
@@ -212,6 +227,15 @@ width: 35%;
   }
   .game-name {
     font-size: 130%;
+  }
+  .play-game-container{
+    margin:50px auto;
+    
+  }
+  .play-contant{
+    margin: 0;
+    padding: 0;
+    padding-left: 50px;
   }
 
    /* nav section */
@@ -245,6 +269,9 @@ width: 35%;
   .adtha-right-symbol {
     font-size: 12px;
     margin-top: 10px;
+  }
+  .footer-head-icon .game{
+   width:80px;
   }
 
   
