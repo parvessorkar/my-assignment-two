@@ -236,29 +236,27 @@ font-weight: 500;
 }
 /* play game section */
 .play-game-container{
-  margin: 0 240px;
+  margin: 100px 240px;
   display: flex;  
 }
 .play-img{
 width: 50%;
+position: relative;
 }
 .play-contant{
 width: 50%;
-margin-left: 100px;
-padding-top: 100px;
+margin-left: 200px;
+padding-top: 150px;
 }
 .big-img img{
-  width:80%;
-  height:100%;
-  position:relative;
+  width:40%;
+  height:50%;
+  position:absolute;
+  bottom:-13%;
+  right:-13%;
 }
-.picture{
-  width: 40%;
-  height: 40%;
-  position: relative;
-  bottom: 240px;
-  left: 400px;
-}
+
+
 .play-heading .play-color{
 background-image: linear-gradient(to bottom,#ff42a5, #4EC5F7);
   color: transparent;

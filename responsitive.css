@@ -3,7 +3,7 @@
 @media screen and (max-width:576px) {
 
 *{
-  width: 99%;
+  width:100%;
 } 
  .nav-container{
   margin:0px auto;
