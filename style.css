@@ -177,7 +177,7 @@ font-weight: 400;
   position: relative;
   width: 50%;
 }
-.sado-img {
+.sado-img { 
   display: block;
   width: 100%;
   height: auto;
@@ -237,7 +237,7 @@ font-weight: 500;
 /* play game section */
 .play-game-container{
   margin: 0 240px;
-  display: flex;
+  display: flex;  
 }
 .play-img{
 width: 50%;
@@ -249,7 +249,7 @@ padding-top: 100px;
 }
 .big-img img{
   width:80%;
-  height: 100%;
+  height:100%;
   position:relative;
 }
 .picture{
@@ -278,40 +278,44 @@ font-weight: 400;
 }
 
   /*game sectiion  */
-  .game-container{
-    background-color: #f5edf1; 
-    width: 1920px;
-    height: 427px;
-    text-align: center;
-    padding-top: 120px;
-    margin: 0 auto;       
-  }
-  .each-game:hover{
-    color: #FF42A5;
-    background-color: #FF42A5;
-    border: 1px solid #FF42A5;  
-    background-clip: text;
-    -webkit-background-clip: text;
-  }
-  .each-game{
-    display: flex;
-    border-radius: 50px;
-    background: #FFF;
-    padding:5px ;
-  
-  }
-  .game-sectiona{
-    display: flex;
-    justify-content: center;
-    gap: 30px;  
-    padding: 20px;
-  }
-  .game-sectionb{
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-   
-  }
+ .game-container {
+  background-color: #f5edf1;
+  width: 100%; 
+  height: auto; 
+  text-align: center;
+  padding-top: 60px;
+  margin: 0 auto;  
+}
+.each-game:hover{
+ color: #FF42A5;
+  background-color: #FF42A5;
+  border: 1px solid #FF42A5;  
+  background-clip: text;
+  -webkit-background-clip: text; 
+}
+
+.each-game {
+  display: flex;
+  border-radius: 50px;
+  background: #FFF;
+  padding: 5px;
+  margin-bottom: 10px;  
+ 
+}
+
+.each-game p {
+  margin: auto; 
+}
+
+.game-sectiona,
+.game-sectionb {
+  display: flex;
+  justify-content: center;
+  gap: 20px; 
+  flex-wrap: wrap; 
+  padding: 10px;
+}
+
   
 
 
@@ -324,56 +328,61 @@ font-weight: 400;
 
 
 /* footer section */
-.footer-head-icon{
-color: white;
-}
-.footer-head-icon .icon-color{
- color: #FFF;
-font-size: 45px;
-font-weight: 700;
-}
-.footer-head-icon img{
-  width:5%;
-}
+ /* General styles for footer */
+    .footer-head-icon {
+      color: white;
+    }
 
-.footer{
-  background: #0B0223;
-}
-.footer-container{
-  text-align: center;
-  padding: 130px 0;
-}
-.footer-heading{
-display: flex;
-justify-content:center;
-gap: 40px;
-color: #FFF;
-font-size: 18px;
-font-style: normal;
-font-weight: 600;
-}
-.footer-icon{
- color: rgb(245, 236, 236);
- display: flex;
- justify-content:center;
- gap:50px;
- font-size:200%;
- 
+    .footer-head-icon .icon-color {
+      color: #FFF;
+      font-size: 45px;
+      font-weight: 700;
+    }
 
-}
-.footer-discreption{
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  color: rgba(255, 255, 255, 0.60);
-font-size: 16px;
-font-weight: 500;
+    .footer-head-icon img {
+      width: 5%;
+    }
 
-}
-.adtha-right-symbol{
-color: rgba(255, 255, 255, 0.60);
-text-align: center;
-font-size: 16px;
-font-weight: 500;
+    .footer {
+      background: #0B0223;
+    }
 
-}
+    .footer-container {
+      text-align: center;
+      padding: 30px 10px; /* Adjust padding for mobile devices */
+    }
+
+    .footer-heading {
+      display: flex;
+      justify-content: center;
+      gap: 20px; /* Reduce the gap for mobile devices */
+      color: #FFF;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 600;
+    }
+
+    .footer-icon {
+      color: rgb(245, 236, 236);
+      display: flex;
+      justify-content: center;
+      gap: 20px; /* Reduce the gap for mobile devices */
+      font-size: 150%; /* Reduce font size for mobile devices */
+    }
+
+    .footer-discreption {
+      display: flex;
+      justify-content: center;
+      gap: 10px; /* Reduce the gap for mobile devices */
+      color: rgba(255, 255, 255, 0.60);
+      font-size: 14px; /* Reduce font size for mobile devices */
+      font-weight: 500;
+    }
+
+    .adtha-right-symbol {
+      color: rgba(255, 255, 255, 0.60);
+      text-align: center;
+      font-size: 14px; /* Reduce font size for mobile devices */
+      font-weight: 500;
+      margin-top: 20px; /* Add some space at the top for mobile devices */
+    }

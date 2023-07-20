@@ -1,10 +1,15 @@
 /* for small device like mobile */
 
 @media screen and (max-width:576px) {
-.nav-container{
+
+*{
+  width: 99%;
+} 
+ .nav-container{
   margin:0px auto;
   flex-direction: column;     
   padding: 0;
+ 
 }
 .game{
 width: 35%;
@@ -39,6 +44,7 @@ width: 35%;
 }
 .baner-contant{
   width: 100%;
+  height: auto;
   padding: 0px;
 }
 .baner-title{
@@ -75,16 +81,7 @@ width: 35%;
 }
 .funny-video-container{
   flex-direction: column;
-}
-/* game section */
-.game-container{
-  display: grid;
-  grid-template-rows: repeat(2,1fr);
-  max-width: 400px;
-  flex-wrap: wrap;
-  height: auto;
-  padding-top: 0px;
-  
+  width: 200%;  
 }
 /* play game */
 .play-game-container{
@@ -94,21 +91,57 @@ width: 35%;
 .big-img img{
   width: 200%;
 }
+.play-contant{
+  margin: 0 auto;
+}
 
+/* game section */
+.each-game {        
+    width: calc(50% - 20px); 
+      }
 
-
-
-
-
-
+.game-sectiona,
+.game-sectionb {
+  flex-wrap: wrap;
+   gap: 10px;
+      }
+.game-sectiona .each-game:nth-child(n+7),
+.game-sectionb .each-game:nth-child(n+7) 
 
 
 /* footer section */
- .footer-container{
-  margin: 50px auto;
-  flex-wrap: wrap;
- }
-}
+  .footer-container {
+        padding: 30px 5px; /* Adjust padding for smaller screens */
+      }
+
+      .footer-heading {
+        flex-wrap: wrap;
+        gap: 10px; /* Reduce the gap for smaller screens */
+        font-size: 16px; /* Increase font size for smaller screens */
+      }
+
+      .footer-icon {
+        gap: 10px; /* Reduce the gap for smaller screens */
+        font-size: 130%; /* Increase font size for smaller screens */
+      }
+
+      .footer-discreption {
+        gap: 5px; /* Reduce the gap for smaller screens */
+        font-size: 12px; /* Increase font size for smaller screens */
+      }
+
+      .adtha-right-symbol {
+        font-size: 12px; /* Increase font size for smaller screens */
+      }
+
+       
+  }  
+
+
+
+      
+
+
 
 /* this is for tab */
 @media screen and (min-width:576px) and (max-width:960px) {
