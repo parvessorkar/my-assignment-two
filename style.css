@@ -6,6 +6,7 @@
   font-family: 'Work Sans', sans-serif;
 }
 /* nav section */
+
 .full-nav{
 background: #FFF;
   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
@@ -52,7 +53,8 @@ color:#FF42A5 ;
   justify-content: space-around;
 }
 /* nav finished */
-/* baner section */  
+/* baner section */ 
+
 .baner-section{
   margin: 50px 240px;
 }
@@ -116,6 +118,7 @@ padding: 20px 40px;
 border: 0;
 }
 /* new item */
+
 .item-container{
   margin: 0 240px;
   display: flex;
@@ -155,6 +158,7 @@ margin-top: 0px;
 
 }
 /* online game section */
+
 .online-game-heding{
 color: #0B0223;
 font-size: 48px;
@@ -234,7 +238,9 @@ font-weight: 400;
 font-size: 20px;
 font-weight: 500;
 }
+
 /* play game section */
+
 .play-game-container{
   margin: 100px 240px;
   display: flex;  
@@ -256,7 +262,6 @@ padding-top: 150px;
   right:-13%;
 }
 
-
 .play-heading .play-color{
 background-image: linear-gradient(to bottom,#ff42a5, #4EC5F7);
   color: transparent;
@@ -274,8 +279,8 @@ color: #534C64;
 font-size: 18px;
 font-weight: 400;
 }
-
   /*game sectiion  */
+
  .game-container {
   background-color: #f5edf1;
   width: 100%; 
@@ -314,33 +319,19 @@ font-weight: 400;
   padding: 10px;
 }
 
-  
-
-
-
-
-
-
-
-
-
-
 /* footer section */
- /* General styles for footer */
-    .footer-head-icon {
+ 
+ .footer-head-icon {
       color: white;
     }
-
-    .footer-head-icon .icon-color {
+.footer-head-icon .icon-color {
       color: #FFF;
       font-size: 45px;
       font-weight: 700;
     }
-
     .footer-head-icon img {
       width: 5%;
     }
-
     .footer {
       background: #0B0223;
     }
