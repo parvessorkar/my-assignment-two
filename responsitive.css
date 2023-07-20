@@ -23,8 +23,7 @@ body{
  .nav-container{
   margin:0px auto;
   flex-direction: column;     
-  padding: 0;
- 
+  padding: 0; 
 }
 .game{
 width: 35%;
@@ -61,8 +60,7 @@ width: 35%;
 .baner-contant{
   width: 100%;
   height: auto;
-  padding: 0px;
-  
+  padding: 0px; 
 }
 .baner-title{
   font-size: 200%;  

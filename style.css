@@ -70,7 +70,7 @@ color:#FF42A5 ;
   margin: 50px 240px;
 }
 .baner-container{
-  display: flex;
+  display: flex;  
 }
 .baner-contant{
  width: 50%; 
@@ -110,7 +110,8 @@ margin-top: 0px;
 .baner-discreption{
  color: #534C64;
 font-size: 200%;
-font-weight: 500px;  
+font-weight: 500px;
+padding: 10px;  
 }
 .btna{
 border-radius: 48px;
